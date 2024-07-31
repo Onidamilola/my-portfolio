@@ -13,6 +13,9 @@ export const DATA = {
     "I am a frontend developer with over 1 year of experience, specializing in HTML, CSS, JavaScript, and ReactJS. I am passionate about creating engaging and responsive user interfaces. I am open to work opportunities and always eager to learn and grow in my field.",
   avatarUrl: "/me.jpeg",
   skills: [
+    "HTML",
+    "CSS",
+    "Javascript",
     "React",
     "Next.js",
     "Typescript",
@@ -77,7 +80,7 @@ export const DATA = {
     {
       school: "AltSchool Africa",
       href: "https://altschoolafrica.com/",
-      degree: "",
+      degree: "frontend engineer",
       logoUrl: "/altschool.png",
       start: "2022",
       end: "2023",
@@ -90,7 +93,7 @@ export const DATA = {
       dates: "Jan 2024 - present",
       active: true,
       description:
-        "With the release of the [OpenAI GPT Store](https://openai.com/blog/introducing-the-gpt-store), I decided to build a SaaS which allows users to collect email addresses from their GPT users. This is a great way to build an audience and monetize your GPT API usage.",
+        "I developed a merchandizing app using ReactJS, taking charge of the entire frontend development process. The app is designed to collect data from merchandizing agents in the field, streamlining the data collection process and enhancing the efficiency of merchandizing operations.",
       technologies: [
         "react.js",
         "Javascript",
@@ -110,7 +113,7 @@ export const DATA = {
         "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
-      title: "Magic UI",
+      title: "Memory Game",
       href: "https://magicui.design",
       dates: "June 2023 - Present",
       active: true,
@@ -142,7 +145,7 @@ export const DATA = {
       video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
-      title: "llm.report",
+      title: "Update-project",
       href: "https://llm.report",
       dates: "April 2023 - September 2023",
       active: true,
