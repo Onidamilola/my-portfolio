@@ -124,29 +124,6 @@ export const DATA = {
       image: "",
     },
     {
-      title: "Guinness scan_X",
-      href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
-      dates: "June 2024",
-      active: true,
-      description:
-        "Designed, developed a game for Mcvities used in their promo for an event.",
-      technologies: [
-        "HTMl",
-        "CSS",
-        "javascript",
-        "Ajax",
-       
-      ],
-      links: [
-        {
-          type: "Website",
-          href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
-          icon: <Icons.globe className="size-3" />,
-        },
-      ],
-      image: "",
-    },
-    {
       title: "Update-project",
       href: "https://update-knowledge.vercel.app/",
       dates: "July 2024",
@@ -188,6 +165,29 @@ export const DATA = {
         {
           type: "Website",
           href: "https://automatic.chat",
+          icon: <Icons.globe className="size-3" />,
+        },
+      ],
+      image: "",
+    },
+    {
+      title: "Guinness scan_X",
+      href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
+      dates: "November 2024",
+      active: true,
+      description:
+        "Designed, developed a spin and win game for Guinness used for their activation promo all around Nigeria.",
+      technologies: [
+        "HTMl",
+        "CSS",
+        "javascript",
+        "Ajax",
+       
+      ],
+      links: [
+        {
+          type: "Website",
+          href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
