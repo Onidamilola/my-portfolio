@@ -124,23 +124,23 @@ export const DATA = {
       image: "",
     },
     {
-      title: "Memory Game",
-      href: "https://magicui.design",
+      title: "Guinness scan_X",
+      href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
       dates: "June 2024",
       active: true,
       description:
         "Designed, developed a game for Mcvities used in their promo for an event.",
       technologies: [
         "HTMl",
+        "CSS",
         "javascript",
-        "Laravel",
         "Ajax",
        
       ],
       links: [
         {
           type: "Website",
-          href: "https://magicui.design",
+          href: "https://gdmgroup-scan-x-q338c.ondigitalocean.app/",
           icon: <Icons.globe className="size-3" />,
         },
       ],
