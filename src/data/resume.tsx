@@ -106,7 +106,7 @@ export const DATA = {
       dates: "Jan 2024 - present",
       active: true,
       description:
-        "I developed a merchandizing app using ReactJS, taking charge of the entire frontend development process. The app is designed to collect data from merchandizing agents in the field, streamlining the data collection process and enhancing the efficiency of merchandizing operations.",
+        "I developed a merchandising app using ReactJS, taking charge of the entire frontend development process. The app is designed to collect data from merchandising agents in the field, streamlining the data collection process and enhancing the efficiency of merchandising operations.",
       technologies: [
         "react.js",
         "Javascript",
@@ -129,7 +129,7 @@ export const DATA = {
       dates: "July 2024",
       active: true,
       description:
-        "Developed an open-source website where you get to upload and update your knowledge in various fields.",
+        "Created an open-source platform for sharing and expanding knowledge across diverse fields, enabling users to upload and update content effortlessly.",
       technologies: [
         "React.js",
         "Typescript",
@@ -176,7 +176,7 @@ export const DATA = {
       dates: "November 2024",
       active: true,
       description:
-        "Designed, developed a spin and win game for Guinness used for their activation promo all around Nigeria.",
+        "Scan_X is an interactive prize wheel with customizable sections and engaging animations, perfect for promotions and gamification. Built with HTML, CSS, and JavaScript, it offers a responsive, dynamic user experience.",
       technologies: [
         "HTMl",
         "CSS",
