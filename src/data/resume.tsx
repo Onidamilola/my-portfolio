@@ -122,8 +122,6 @@ export const DATA = {
         },
       ],
       image: "",
-      // video:
-      //   "https://pub-83c5db439b40468498f97946200806f7.r2.dev/chat-collect.mp4",
     },
     {
       title: "Memory Game",
@@ -131,7 +129,7 @@ export const DATA = {
       dates: "June 2024",
       active: true,
       description:
-        "Designed, developed and sold animated UI components for developers.",
+        "Designed, developed a game for Mcvities used in their promo for an event.",
       technologies: [
         "HTMl",
         "javascript",
@@ -147,7 +145,6 @@ export const DATA = {
         },
       ],
       image: "",
-      // video: "https://cdn.magicui.design/bento-grid.mp4",
     },
     {
       title: "Update-project",
@@ -155,7 +152,7 @@ export const DATA = {
       dates: "July 2024",
       active: true,
       description:
-        "Developed an open-source logging and analytics platform for OpenAI: Log your ChatGPT API requests, analyze costs, and improve your prompts.",
+        "Developed an open-source website where you get to upload and update your knowledge in various fields.",
       technologies: [
         "React.js",
         "Typescript",
@@ -174,7 +171,6 @@ export const DATA = {
         },
       ],
       image: "",
-      // video: "https://cdn.llm.report/openai-demo.mp4",
     },
     {
       title: "Styletisfy",
@@ -196,8 +192,6 @@ export const DATA = {
         },
       ],
       image: "",
-      // video:
-        // "https://pub-83c5db439b40468498f97946200806f7.r2.dev/automatic-chat.mp4",
     },
   ],
  } as const;
