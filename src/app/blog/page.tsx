@@ -42,7 +42,7 @@ export default async function BlogPage({
   return (
     <section className="space-y-12">
       <BlurFade delay={BLUR_FADE_DELAY}>
-        <h1 className="font-medium text-2xl tracking-tighter">Blog &amp; tech news</h1>
+        <h1 className="page-title font-medium text-2xl tracking-tighter">Blog &amp; tech news</h1>
         <p className="mt-2 text-sm text-muted-foreground">
           What I&apos;m reading on web development, AI, machine learning and
           cloud, updated hourly from DEV Community and Hacker News.
@@ -52,7 +52,7 @@ export default async function BlogPage({
       {posts.length > 0 && (
         <div>
           <BlurFade delay={BLUR_FADE_DELAY * 2}>
-            <h2 className="text-xl font-bold mb-4">My posts</h2>
+            <h2 className="section-title text-xl font-bold mb-4">My posts</h2>
           </BlurFade>
           {posts
             .sort(
@@ -78,7 +78,7 @@ export default async function BlogPage({
 
       <div>
         <BlurFade delay={BLUR_FADE_DELAY * 4}>
-          <h2 className="text-xl font-bold">Top articles this week</h2>
+          <h2 className="section-title text-xl font-bold">Top articles this week</h2>
           <nav aria-label="News topics" className="mt-3 flex flex-wrap gap-1.5">
             {NEWS_TOPICS.map((t) => (
               <Link
@@ -89,7 +89,8 @@ export default async function BlogPage({
               >
                 <Badge
                   variant={t.slug === topic ? "default" : "secondary"}
-                  className="px-2.5 py-1 text-xs"
+                  className="topic-tab px-2.5 py-1 text-xs"
+                  data-active={t.slug === topic}
                 >
                   {t.label}
                 </Badge>
@@ -112,7 +113,7 @@ export default async function BlogPage({
                     href={a.url}
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="group flex gap-4 rounded-lg border p-3 transition-colors hover:bg-secondary/60"
+                    className="news-card group flex gap-4 rounded-lg border p-3 transition-colors hover:bg-secondary/60"
                   >
                     {a.coverImage && (
                       // eslint-disable-next-line @next/next/no-img-element
@@ -145,7 +146,7 @@ export default async function BlogPage({
 
       <div>
         <BlurFade delay={BLUR_FADE_DELAY * 6}>
-          <h2 className="text-xl font-bold">Trending on Hacker News</h2>
+          <h2 className="section-title text-xl font-bold">Trending on Hacker News</h2>
         </BlurFade>
         {stories.length === 0 ? (
           <p className="mt-4 text-sm text-muted-foreground">
