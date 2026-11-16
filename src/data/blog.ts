@@ -15,6 +15,8 @@ type Metadata = {
 };
 
 function getMDXFiles(dir: string) {
+  // The content folder may not exist when there are no posts yet.
+  if (!fs.existsSync(dir)) return [];
   return fs.readdirSync(dir).filter((file) => path.extname(file) === ".mdx");
 }
 
